@@ -33,11 +33,3 @@ ScentVerdict is an independent perfume review and discovery platform. Every perf
 - **Side-by-side comparisons** - head-to-head breakdowns to help you choose
 - **UK prices** from trusted retailers with price-per-ml analysis
 
-### Built With
-
-- [.NET](https://github.com/dotnet/runtime) + [ServiceStack](https://github.com/ServiceStack/ServiceStack) + [HTMX](https://github.com/bigskysoftware/htmx) - Backend and web
-- [Vue.js](https://github.com/vuejs/core) + [Ionic](https://github.com/ionic-team/ionic-framework) + [Capacitor](https://github.com/ionic-team/capacitor) - Mobile app
-- [PostgreSQL](https://www.postgresql.org/) - Database
-- [Anthropic Claude](https://www.anthropic.com/) - AI pipeline
-- [DigitalOcean](https://www.digitalocean.com/) - Hosting and CDN
-- [Omnara](https://omnara.com/) - AI coding agent command centre
