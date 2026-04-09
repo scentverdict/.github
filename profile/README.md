@@ -46,6 +46,13 @@ ScentVerdict is an independent perfume review and discovery platform. Every perf
 - [Markdig](https://github.com/xoofx/markdig) - Markdown processing
 - [Jint](https://github.com/sebastienros/jint) - JavaScript interpreter for .NET
 
+**Mobile App**
+- [Vue.js 3](https://github.com/vuejs/core) - Progressive JavaScript framework
+- [Ionic](https://github.com/ionic-team/ionic-framework) - Cross-platform mobile UI
+- [Capacitor](https://github.com/ionic-team/capacitor) - Native mobile bridge
+- [Vue Router](https://github.com/vuejs/router) - Client-side routing
+- [Vite](https://github.com/vitejs/vite) - Build tooling
+
 **ScentArt & Images**
 - [@napi-rs/canvas](https://github.com/napi-rs/canvas) - Server-side perfume visualisation rendering
 - [ImageSharp](https://github.com/SixLabors/ImageSharp) - Image processing
