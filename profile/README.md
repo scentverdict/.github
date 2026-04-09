@@ -35,4 +35,32 @@ ScentVerdict is an independent perfume review and discovery platform. Every perf
 
 ### Built With
 
-ScentVerdict is built with .NET, ServiceStack, Razor Pages, HTMX, and PostgreSQL. Hosted on [DigitalOcean](https://www.digitalocean.com/), powered by [Anthropic Claude](https://www.anthropic.com/), and developed with [Omnara](https://omnara.com/).
+**Framework & Backend**
+- [.NET 10](https://github.com/dotnet/runtime) - Runtime
+- [ServiceStack](https://github.com/ServiceStack/ServiceStack) - Web framework, ORM, and API layer
+- [Razor Pages](https://github.com/dotnet/aspnetcore) + [HTMX](https://github.com/bigskysoftware/htmx) - Server-rendered pages with dynamic interactions
+- [PostgreSQL](https://www.postgresql.org/) + [Npgsql](https://github.com/npgsql/npgsql) - Database and .NET data provider
+
+**AI & Content**
+- [Anthropic Claude](https://www.anthropic.com/) - Verdicts, descriptions, dupe analysis, and scent matching
+- [Markdig](https://github.com/xoofx/markdig) - Markdown processing
+- [Jint](https://github.com/sebastienros/jint) - JavaScript interpreter for .NET
+
+**ScentArt & Images**
+- [@napi-rs/canvas](https://github.com/napi-rs/canvas) - Server-side perfume visualisation rendering
+- [ImageSharp](https://github.com/SixLabors/ImageSharp) - Image processing
+
+**Infrastructure & Ops**
+- [DigitalOcean](https://www.digitalocean.com/) - Hosting and CDN
+- [Serilog](https://github.com/serilog/serilog) + [Seq](https://github.com/datalust/seq-app) - Structured logging
+- [Polly](https://github.com/App-vNext/Polly) - Resilience and fault handling
+
+**CLI & Tooling**
+- [Spectre.Console](https://github.com/spectreconsole/spectre.console) - Rich console UI
+- [System.CommandLine](https://github.com/dotnet/command-line-api) - CLI argument parsing
+- [Omnara](https://omnara.com/) - AI coding agent command centre
+
+**Testing**
+- [xUnit](https://github.com/xunit/xunit) - Unit and integration testing
+- [Playwright](https://github.com/microsoft/playwright) - Browser automation and screenshots
+- [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) - Performance benchmarking
