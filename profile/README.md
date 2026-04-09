@@ -35,39 +35,9 @@ ScentVerdict is an independent perfume review and discovery platform. Every perf
 
 ### Built With
 
-**Framework & Backend**
-- [.NET 10](https://github.com/dotnet/runtime) - Runtime
-- [ServiceStack](https://github.com/ServiceStack/ServiceStack) - Web framework, ORM, and API layer
-- [Razor Pages](https://github.com/dotnet/aspnetcore) + [HTMX](https://github.com/bigskysoftware/htmx) - Server-rendered pages with dynamic interactions
-- [PostgreSQL](https://www.postgresql.org/) + [Npgsql](https://github.com/npgsql/npgsql) - Database and .NET data provider
-
-**AI & Content**
-- [Anthropic Claude](https://www.anthropic.com/) - Verdicts, descriptions, dupe analysis, and scent matching
-- [Markdig](https://github.com/xoofx/markdig) - Markdown processing
-- [Jint](https://github.com/sebastienros/jint) - JavaScript interpreter for .NET
-
-**Mobile App**
-- [Vue.js 3](https://github.com/vuejs/core) - Progressive JavaScript framework
-- [Ionic](https://github.com/ionic-team/ionic-framework) - Cross-platform mobile UI
-- [Capacitor](https://github.com/ionic-team/capacitor) - Native mobile bridge
-- [Vue Router](https://github.com/vuejs/router) - Client-side routing
-- [Vite](https://github.com/vitejs/vite) - Build tooling
-
-**ScentArt & Images**
-- [@napi-rs/canvas](https://github.com/napi-rs/canvas) - Server-side perfume visualisation rendering
-- [ImageSharp](https://github.com/SixLabors/ImageSharp) - Image processing
-
-**Infrastructure & Ops**
+- [.NET](https://github.com/dotnet/runtime) + [ServiceStack](https://github.com/ServiceStack/ServiceStack) + [HTMX](https://github.com/bigskysoftware/htmx) - Backend and web
+- [Vue.js](https://github.com/vuejs/core) + [Ionic](https://github.com/ionic-team/ionic-framework) + [Capacitor](https://github.com/ionic-team/capacitor) - Mobile app
+- [PostgreSQL](https://www.postgresql.org/) - Database
+- [Anthropic Claude](https://www.anthropic.com/) - AI pipeline
 - [DigitalOcean](https://www.digitalocean.com/) - Hosting and CDN
-- [Serilog](https://github.com/serilog/serilog) + [Seq](https://github.com/datalust/seq-app) - Structured logging
-- [Polly](https://github.com/App-vNext/Polly) - Resilience and fault handling
-
-**CLI & Tooling**
-- [Spectre.Console](https://github.com/spectreconsole/spectre.console) - Rich console UI
-- [System.CommandLine](https://github.com/dotnet/command-line-api) - CLI argument parsing
 - [Omnara](https://omnara.com/) - AI coding agent command centre
-
-**Testing**
-- [xUnit](https://github.com/xunit/xunit) - Unit and integration testing
-- [Playwright](https://github.com/microsoft/playwright) - Browser automation and screenshots
-- [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) - Performance benchmarking
